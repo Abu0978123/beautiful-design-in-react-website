@@ -1,0 +1,77 @@
+/* here is the filters css */
+.filters{
+    /* position: relative; */
+    width: 500px !important;
+    height: 300px;
+    background: #d7d7d7;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin-bottom: 50px;
+}
+.formData { 
+    width: 400px !important;
+    height: 30px;
+    display: flex;
+    /* align-items: center; */
+    border-radius: 8px;
+    background: #ffffff;
+    justify-content: center; 
+}
+.selection-data{
+    width: 400px;
+    /* background: #000; */
+
+}
+.searchButton{
+    width: 200px;
+}
+.category{
+    /* position: absolute; */
+    width: 300px;
+    /* background: #000; */
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+
+}
+.category select{
+    width: 200px;
+    /* justify-content: center; */
+
+}
+@media only screen and (max-width: 600px) {
+    .filters {
+        padding-top: 20px;
+     /* width: 400px !important; */
+
+      /* margin-left: 10px; */
+    }
+    .selection-data{
+        width: 300px;
+    }
+    .formData { 
+        width: 300px !important;
+        /* justify-items: center; */
+
+    }
+  }
+
+  .location{
+    display: flex;
+    /* background: #000; */
+    justify-content: space-around;
+    width: 300px;
+  }
+  .location input{
+    outline: none;
+    border-radius: 7px;
+    border: none;
+    /* background: #000; */
+  }
+  .location label{
+    background: #ffffff;
+    /* rad */
+  }

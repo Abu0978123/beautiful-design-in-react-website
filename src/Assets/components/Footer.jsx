@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
               <div className="col-md-4">
                 <h4>
                   <a href="#" className="text-white">
-                    Abu Bakar
+                    E-Lance
                   </a>
                 </h4>
                 <p>
@@ -44,22 +45,22 @@ export default function Footer() {
                 <h4>Quick Links</h4>
                 <ul>
                   <li>
-                    <a href="#">Services</a>
+                   <Link to={'/services'}><a>Services</a></Link> 
                   </li>
                   <li>
-                    <a href="#">Blog</a>
+                  <Link to={'/blog'}><a >Blog</a></Link>
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                  <Link to={'/contact'}> <a >Contact</a></Link>
                   </li>
                 </ul>
               </div>
               <div className="col-md-3">
                 <h4>Contact</h4>
                 <ul>
-                  <li>Email: abubakar.com</li>
+                  <li>Email: hr@zetasoft.org</li>
                   <li>Phone: +931-190-10814</li>
-                  <li>Address: Zarif kor Peshawar</li>
+                  <li>Address: Dalazak Road Peshawar</li>
                 </ul>
               </div>
             </div>
@@ -74,7 +75,7 @@ export default function Footer() {
               <div className="col-auto">
                 <p className="mb-0">
                   Template designed by
-                  <a href="https://www.instagram.com/itx__abu">Abu </a>
+                  <a href="https://www.instagram.com/itx__abu"> Abu Bakar </a>
                 </p>
               </div>
             </div>

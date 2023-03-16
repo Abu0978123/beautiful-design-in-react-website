@@ -3,8 +3,9 @@
 
 /* Variables */
 :root {
-    --c-brand: #f83691;
-    --c-brand-rgb: 248, 54, 145;
+    --c-brand: #7635f9;
+    --c-brand-custom: #ffffff;
+    --c-brand-rgb: 248, 54, 145; 
     --c-dark: #303050;
     --c-body: #636383;
     --c-light: #f6f6f6;
@@ -58,7 +59,7 @@ img {
 }
 
 .text-brand {
-    color: var(--c-brand);
+    color: white;
 }
 
 .setion-title {
@@ -81,7 +82,7 @@ img {
     content: '';
     width: 2px;
     height: 100px;
-    background-color: var(--c-brand);
+    background-color: var(--c-brand-custom);
     position: absolute;
     top: -50px;
     left: 50%;
@@ -135,7 +136,7 @@ img {
 .social-icon {
     width: 36px;
     height: 36px;
-    background-color: var(--c-brand);
+    background-color: rgb(177, 205, 226);
     color: white;
     border: 2px solid var(--c-brand);
     display: inline-flex;
@@ -173,7 +174,7 @@ img {
 
 /* Home */
 #home {
-    background-image: url(./Assets/images/hero1.jpg) ;
+    /* background-image: url(./Assets/images/hero1.jpg) ; */
     opacity: 0.9;
     background-position: center;
     background-size: cover;
@@ -335,4 +336,47 @@ footer ul li {
 
 .footer-bottom a {
     color: var(--c-brand);
+}
+
+.form-data{
+    width: 200px;
+    /* display: flex;
+    align-items: center; */
+    
+}
+
+button[type="submit"]{
+    width: 100%;
+    border: #0057f9 solid 2px;
+    /* background: blue; */
+}
+.login button[type="submit"]:hover{
+    background: #0057f9;
+    border: #0057f9 solid 2px;
+
+}
+
+.fbicon{
+
+    color: rgb(255, 255, 255);
+    /* background: #ffffff; */
+    border-radius: 4px;
+}
+.googleicon{
+    color: rgb(255, 255, 255);
+    /* background: #000000; */
+    border-radius: 4px;
+}
+.search{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+
+}
+.searchInput{
+    width: 1200px !important;
+}
+.searchButton{
+    width: 100px !important;
+    border: none !important;
 }
